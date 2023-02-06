@@ -1,16 +1,17 @@
-# Age Calculator
+# GIPHY API
 
 ##### By _Asia Kaplanyan_
 
 #### _Description_
 
-_A web application that returns user's age on different planets._
+_A web application that returns GIPHY by user's search._
 
 ## Technologies Used
 
 * JavaScript
 * HTML / CSS
 * Webpack
+* API
 
 ## Setup/Installation Requirements
 
