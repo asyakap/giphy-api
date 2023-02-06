@@ -1,17 +1,22 @@
-<!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Weekday Calculator</title>
+  <title>Giphy</title>
 </head>
 <body>
-    <h2>Add a date :</h2>
-    <form id="new-date">
-      <label for="date">Your date:</label>
-      <input type="text" id="input" name="input">
-      <br>
-      <br>
-      <button type="submit">Add</button>
+  <div class="container">
+    <h1>Get a GIPHY by theme!</h1>
+    <p>To get a giphy, please add your theme to the search field:</p>
+    <pre>
+      flower
+      child
+      batman
+    </pre>
+    <form>
+      <label for="search">Enter your key word:</label>
+      <input id="search" type="text" name="search">
+      <button type="submit" class="btn-success" id="submit">Search</button>
     </form>
-    <h4 id="output"></h4>
+    <img id="showResponse">
+  </div>
 <script src="bundle.js"></script></body>
 </html>
